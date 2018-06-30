@@ -1,0 +1,25 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "a store like amazon.com, flipkart.com",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon app.js",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "naveen, maya",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "concurrently": "^3.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.1.7",
+    "request": "^2.87.0"
+  }
+}

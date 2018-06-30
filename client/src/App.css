@@ -1,0 +1,30 @@
+.icon-check {
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
+
+.TodoControls button {
+  margin-top: 5px;
+}
+
+.modal-actions button {
+  margin-right: 10px !important;
+}
+
+.todo-holder li:hover {
+  cursor: pointer;
+  background: #eeeeee88;
+}
+
+.todo-holder li:active {
+  background: #eeeeeeff;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}
+
+button {
+  margin-right: 10px;
+}
