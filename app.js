@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const helmet = require("helmet");
 const compression = require("compression");
 const { MongoURI } = require("./configs/keys");
+console.log("test2 development");
 const routes = require("./routes/index");
 
 mongoose
